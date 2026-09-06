@@ -217,6 +217,8 @@ ul{ margin: 0; padding: 0; list-style: none; }
 .contact-list{ margin-top: 20px; }
 .contact-list li{ margin-bottom: 10px; font-size: .93rem; color: var(--gray); }
 .contact-list strong{ color: var(--ink); }
+.contact-list a{ color: var(--navy); font-weight: 600; }
+.contact-list a:hover{ text-decoration: underline; }
 
 .contact-form{ background: #fff; border-radius: var(--radius); padding: 30px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 16px; }
 .contact-form label{ display: flex; flex-direction: column; gap: 6px; font-size: .88rem; font-weight: 600; color: var(--ink); }
@@ -236,6 +238,9 @@ ul{ margin: 0; padding: 0; list-style: none; }
 .footer-nav{ display: flex; gap: 22px; flex-wrap: wrap; }
 .footer-nav a{ font-size: .9rem; }
 .footer-nav a:hover{ color: var(--gold); }
+.footer-contact{ display: flex; gap: 20px; flex-wrap: wrap; }
+.footer-contact a{ font-size: .9rem; color: var(--gold); }
+.footer-contact a:hover{ text-decoration: underline; }
 .footer-legal{ padding: 18px 24px 26px; font-size: .78rem; text-align: center; color: #8b93b8; }
 
 /* Reveal animation */

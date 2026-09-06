@@ -60,11 +60,5 @@
   revealTargets.forEach(function(el){ observer.observe(el); });
   if (statsStrip) observer.observe(statsStrip);
 
-  // Contact form (no backend yet)
-  var form = document.getElementById('contactForm');
-  var note = document.getElementById('formNote');
-  form.addEventListener('submit', function(e){
-    e.preventDefault();
-    note.textContent = 'Merci ! Ce formulaire n\'est pas encore relié à une messagerie — contactez la coopérative directement en attendant.';
-  });
+  // Contact form submits directly to formsubmit.co (see form action) — no JS interception needed.
 })();
